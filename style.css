@@ -2,20 +2,20 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.intro-part{
+header{
     background-color: #2D25A0;
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.heading{
+.headline{
     font-size: 64px;
     font-weight: bold;
     color: white;
     margin-left: 156px;
     margin-top: 207px;
 }
-.link-button{
+.heading a{
     background-color: #E02C6D;
     color: white;
     width: 168px;
@@ -25,9 +25,13 @@ body{
     margin-left: 156px;
     text-decoration: none;
 }
-.logo{
+.banner{
     width: 556.01px;
     height: 438px;
     margin-top: 139px;
     margin-bottom: 100px;
+}
+.cover-pic:hover img{
+    transform:  rotateZ(100deg);
+    transition: transform 5s ease;
 }
