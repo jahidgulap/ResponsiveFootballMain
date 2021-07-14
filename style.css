@@ -69,6 +69,76 @@ Palyer information starts from here
     color: #6C6C6C;
     font-size: 16px;
 }
+/*-------------------
+ CSS For Bonus Part 1
+ ----------------- */
+ .laliga{
+     display: flex;
+     justify-content: space-evenly;
+     margin-bottom: 100px;
+ }
+.cover-img{
+    width: 50%;
+}
+.cover-img:hover{
+    transform:  scale(1.5);
+    transition: transform 5s ease-in-out;
+}
+.laliga a{
+    background-image: linear-gradient(tomato , orange);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 150px;
+}
+
+/*-------------------
+ CSS For Bonus Part 1
+ ----------------- */
+.about-section{
+    font-size: 20px;
+    background-color: rgb(40, 104, 93);
+    color: white;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+}
+.bet-img{
+    width: 100%;
+    height: 300px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login-form input,button{
+    font-size: 1.3em;
+    margin-top: 15PX;
+    border: 1px solid lightcoral;
+    padding-left: 10px;
+}
+.login-form button{
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+.login-button{
+    color: white;
+    text-decoration: none;
+}
+
 
 /* -------------------
 Footer start from here
@@ -101,6 +171,20 @@ Footer start from here
     padding-top: 8px;
     padding-left: 2px;
     padding-right: 2px;
+}
+
+.f-social:hover .fa-facebook  {
+    background-color: rgb(6, 1, 49);
+  
+}
+.f-social:hover .fa-instagram  {
+    background-color: rgb(6, 1, 49);
+}
+.f-social:hover .fa-twitter  {
+    background-color: rgb(6, 1, 49);
+}
+.f-social:hover .fa-youtube  {
+    background-color: rgb(6, 1, 49);
 }
 .copyright{
     font-size: 18px;
