@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
 }
-header{
+.intro{
     background-color: #2D25A0;
     color: white;
     display: grid;
@@ -87,7 +87,7 @@ Palyer information starts from here
     transform:  scale(1.5);
     transition: transform 3s ease-in-out;
 }
-.laliga a{
+.tap-button{
     background-image: linear-gradient(tomato , orange);
     color: white;
     width: 100px;
@@ -192,4 +192,35 @@ Footer start from here
 .copyright{
     font-size: 18px;
     margin-bottom: 63px;
+}
+/* ------------
+Media Queries
+-------------- */
+@media only screen and (max-width: 688px) {
+    .intro{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .headline{
+        font-size: 36px;
+        margin-left: 16px;
+        margin-top: 112px;
+        margin-right: 66px;
+    }
+    .heading a{
+        margin-left: 15px;
+    }
+    
+    .banner{
+        width: 329px;
+        height: 259.17px;
+        margin-left: 15px;
+    }
+    .gallery, .football{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+    .f-logo img{
+        width: 70%;
+    }
 }
