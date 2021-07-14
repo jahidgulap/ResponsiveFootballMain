@@ -78,7 +78,7 @@ Palyer information starts from here
  .laliga{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
  }
 .cover-img{
     width: 50%;
@@ -90,12 +90,15 @@ Palyer information starts from here
 .tap-button{
     background-image: linear-gradient(tomato , orange);
     color: white;
-    width: 100px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    margin-top: 150px;
+}
+.button{
+    margin-left: 650px;
+    margin-top: 50px;
 }
 
 /*-------------------
@@ -219,6 +222,9 @@ Media Queries
     .gallery, .football{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 30px;
+    }
+    .button{
+       margin-left: 150px;
     }
     .f-logo img{
         width: 70%;
