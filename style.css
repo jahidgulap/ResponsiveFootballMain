@@ -72,17 +72,20 @@ Palyer information starts from here
 /*-------------------
  CSS For Bonus Part 1
  ----------------- */
+ .title{
+    text-align: center;
+ }
  .laliga{
-     display: flex;
-     justify-content: space-evenly;
-     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
  }
 .cover-img{
     width: 50%;
 }
 .cover-img:hover{
     transform:  scale(1.5);
-    transition: transform 5s ease-in-out;
+    transition: transform 3s ease-in-out;
 }
 .laliga a{
     background-image: linear-gradient(tomato , orange);
@@ -96,7 +99,7 @@ Palyer information starts from here
 }
 
 /*-------------------
- CSS For Bonus Part 1
+ CSS For Bonus Part 2
  ----------------- */
 .about-section{
     font-size: 20px;
